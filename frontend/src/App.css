@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@themes{
+    "primary": #925fe2,
+    "primary-light": #9c6fe4,
+    "primary-lightest": #e5d5fd,
+    "success": #1dd63a,
+    "danger": #d11515,
+    "warning": #d4f40d,
+}

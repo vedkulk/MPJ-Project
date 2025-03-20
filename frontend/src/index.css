@@ -1,0 +1,42 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #e5d5fd;
+  --primary: #925fe2;
+  --primary-light: #9c6fe4;
+  --primary-lightest: #e5d5fd;
+  --success: #1dd63a;
+  --danger: #d11515;
+  --warning: #d4f40d;
+}
+
+.bg-background {
+  background-color: var(--background);
+}
+
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.bg-primary-light {
+  background-color: var(--primary-light);
+}
+
+.bg-primary-lightest {
+  background-color: var(--primary-lightest);
+}
+
+.bg-success {
+  background-color: var(--success);
+}
+
+.bg-danger {
+  background-color: var(--danger);
+}
+
+.bg-warning {
+  background-color: var(--warning);
+}
